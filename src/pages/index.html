@@ -1,11 +1,36 @@
 <main>
+    <!-- Row 1 -->
     <div class="grid-container">
         <div class="grid-x">
             <!-- Date/Time -->
-            <div class="small-8 cell">
+            <div id="datetime" class="small-8 cell">
                 {{> datetime}}
+            </div>
+
+            <!-- Weather -->
+            <div id="weather" class="small-4 cell">
+                {{> weather}}
             </div>
         </div>
     </div>
 
+    <!-- Row 2 -->
+    <div class="grid-container">
+        <div id="news" class="grid-x">
+            <!-- News -->
+            <div class="cell">
+                {{> news}}
+            </div>
+        </div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="grid-container">
+        <div id="youtube" class="grid-x">
+            <!-- YouTube -->
+            <div class="cell">
+                {{> youtube}}
+            </div>
+        </div>
+    </div>
 </main>
